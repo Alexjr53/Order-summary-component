@@ -1,0 +1,98 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+   max-width: 45rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.container .image{
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.container-info{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 1.5rem 1.5rem;
+    /* padding: 0 4.7rem; */
+}
+
+.container .container-info .info{
+    text-align: center;
+    padding: 0 7.7rem;
+
+}
+.container .container-info .info h1{
+    font-size: 2.9rem;
+    margin-top: 4.5rem;
+}
+
+.container .container-info .info p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-top: 1.6rem;
+}
+
+.container .container-info .plan-description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.7rem;
+    border-radius: 1rem;
+    width: 78%;
+    padding: 2.5rem;
+    background-color: red;
+}
+
+.container .container-info .plan-description .product-plan{
+    background-color: blueviolet;
+    font-size: 1.7rem;
+    padding-right: 7.4rem;
+}
+
+.container .container-info .plan-description::before{
+    content: url(../images/icon-music.svg);
+
+}
+
+.container .container-info .plan-description .product-plan :last-child{
+    margin-top: 0.5rem;
+}
+
+.container .container-info .plan-description .btn-change{
+    font-size: 1.4rem;
+}
+
+.container .container-info .btn-confirm{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 1.5rem 10.1rem;
+    border-radius: 1rem;
+    background-color: blue;
+    margin-top: 3rem;
+}
+
+.container .container-info .btn-cancel{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: ;
+    margin: 3.3rem 0 4.7rem;
+}
