@@ -31,7 +31,6 @@ main{
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 1.5rem 1.5rem;
-    /* padding: 0 4.7rem; */
 }
 
 .container .container-info .info{
@@ -93,6 +92,5 @@ main{
 .container .container-info .btn-cancel{
     font-size: 1.6rem;
     text-decoration: none;
-    color: ;
     margin: 3.3rem 0 4.7rem;
 }
