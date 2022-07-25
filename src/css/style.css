@@ -3,9 +3,11 @@ html{
 }
 
 body{
-    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background: hsl(225, 100%, 94%) url(../images/pattern-background-desktop.svg) no-repeat;
     background-size: 100%;
     font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    
 }
 
 main{
@@ -25,31 +27,33 @@ main{
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
-.container-info{
-    background-color: aqua;
+.container .order-sumary{
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0px 20px 30px #01010128;
 }
 
-.container .container-info .info{
+.container .order-sumary .info-content{
     text-align: center;
     padding: 0 7.7rem;
-
 }
-.container .container-info .info h1{
-    font-size: 2.9rem;
+.container .order-sumary .info-content h1{
+    font-size: 2.8rem;
+    font-weight: 900;
     margin-top: 4.5rem;
+    color: hsl(223, 47%, 23%);
 }
 
-.container .container-info .info p{
+.container .order-sumary .info-content p{
     font-size: 1.6rem;
     line-height: 2.6rem;
     margin-top: 1.6rem;
 }
 
-.container .container-info .plan-description{
+.container .order-sumary .plan-description{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,40 +61,44 @@ main{
     border-radius: 1rem;
     width: 78%;
     padding: 2.5rem;
-    background-color: red;
+    background-color: hsl(225, 100%, 98%);
 }
 
-.container .container-info .plan-description .product-plan{
-    background-color: blueviolet;
-    font-size: 1.7rem;
+.container .order-sumary .plan-description .product-plan{
+    font-size: 1.6rem;
     padding-right: 7.4rem;
 }
 
-.container .container-info .plan-description::before{
+.container .order-sumary .plan-description .product-plan :first-child{
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+}
+.container .order-sumary .plan-description::before{
     content: url(../images/icon-music.svg);
 
 }
 
-.container .container-info .plan-description .product-plan :last-child{
-    margin-top: 0.5rem;
-}
 
-.container .container-info .plan-description .btn-change{
+.container .order-sumary .plan-description .btn-change{
     font-size: 1.4rem;
+    font-weight: 700;
 }
 
-.container .container-info .btn-confirm{
+.container .order-sumary .btn-confirm{
     text-decoration: none;
     color: #ffffff;
     font-size: 1.6rem;
     padding: 1.5rem 10.1rem;
     border-radius: 1rem;
-    background-color: blue;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 20px 30px #01010128;
     margin-top: 3rem;
 }
 
-.container .container-info .btn-cancel{
-    font-size: 1.6rem;
+.container .order-sumary .btn-cancel{
+    font-size: 1.5rem;
+    font-weight: 900;
     text-decoration: none;
+    color: hsl(224, 23%, 55%);
     margin: 3.3rem 0 4.7rem;
 }
