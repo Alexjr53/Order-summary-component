@@ -1,0 +1,54 @@
+@media(max-width: 530px){
+    body{
+        background: var(--main-bg-color) url(../images/pattern-background-mobile.svg) center no-repeat;
+        background-size: cover; 
+    }
+
+    .container{
+        margin: 4.5rem;
+        max-width: 35rem;
+    }
+
+    .container .order-sumary .info-content{
+        padding: 0 4.8rem;
+    }
+
+    .container .order-sumary .info-content h1{
+        font-size: 2.2rem;
+        margin-top: 3.1rem;
+    }
+
+    .container .order-sumary .info-content p{
+        font-size: 1.5rem;
+    }
+
+    .container .order-sumary .plan-description{
+       width: 80%;
+       padding: 2rem 1.5rem;
+   }
+
+    .container .order-sumary .plan-description .product-plan{
+        font-size: 1.4rem;
+        padding-right: 3rem;
+    }
+
+    .container .order-sumary .plan-description .btn-change{
+        font-size: 1.3rem;
+    }
+
+    .container .order-sumary .btn-confirm{
+        padding: 1.4rem 6.6rem;
+        margin-top: 1.9rem;
+    }
+
+    .container .order-sumary .btn-cancel{
+        margin: 2.5rem 0 3rem;
+    }
+}
+
+@media(max-width:411px){
+    .container{
+        margin: 2rem;
+    }
+        
+}
