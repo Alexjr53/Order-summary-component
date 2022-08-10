@@ -74,6 +74,7 @@ main{
 .container .order-sumary .plan-description .product-plan :first-child{
     margin-bottom: 0.5rem;
     font-weight: 900;
+    color: var(--secundary-text-color);
 }
 .container .order-sumary .plan-description::before{
     content: url(../images/icon-music.svg);
@@ -93,6 +94,7 @@ main{
 .container .order-sumary .btn-confirm{
     text-decoration: none;
     color: #ffffff;
+    font-weight: 700;
     font-size: 1.6rem;
     padding: 1.5rem 10.1rem;
     border-radius: 1rem;
