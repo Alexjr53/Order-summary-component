@@ -4,51 +4,50 @@
         background-size: cover; 
     }
 
-    .container{
+    .card{
         margin: 4.5rem;
         max-width: 35rem;
     }
 
-    .container .order-sumary .info-content{
-        padding: 0 4.8rem;
+    .card .order-sumary .info-content{
+        padding-inline: 4.8rem;
     }
 
-    .container .order-sumary .info-content h1{
+    .card .order-sumary .info-content h1{
         font-size: 2.2rem;
         margin-top: 3.1rem;
     }
 
-    .container .order-sumary .info-content p{
+    .card .order-sumary .info-content p{
         font-size: 1.5rem;
     }
 
-    .container .order-sumary .plan-description{
+    .card .order-sumary .plan-container{
        width: 80%;
        padding: 2rem 1.5rem;
    }
 
-    .container .order-sumary .plan-description .product-plan{
+    .card .order-sumary .plan-container .plan-description{
         font-size: 1.4rem;
         padding-right: 3rem;
     }
 
-    .container .order-sumary .plan-description .btn-change{
+    .card .order-sumary .plan-container .btn-change{
         font-size: 1.3rem;
     }
 
-    .container .order-sumary .btn-confirm{
+    .card .order-sumary .btn-confirm{
         padding: 1.4rem 6.6rem;
         margin-top: 1.9rem;
     }
 
-    .container .order-sumary .btn-cancel{
+    .card .order-sumary .btn-cancel{
         margin: 2.5rem 0 3rem;
     }
 }
 
 @media(max-width:411px){
-    .container{
+    .card{
         margin: 2rem;
-    }
-        
+    }   
 }

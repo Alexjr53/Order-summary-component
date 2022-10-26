@@ -1,13 +1,8 @@
-html{
-    font-size: 62.5%;
-}
-
 body{
     background: var(--main-bg-color) url(../images/pattern-background-desktop.svg) no-repeat;
-    background-size: 100%;
+    background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    
 }
 
 main{
@@ -17,18 +12,18 @@ main{
     align-items: center;
 }
 
-.container{
+.card{
    max-width: 45rem;
    display: flex;
    flex-direction: column;
 }
 
-.container .image{
+.card .image{
     border-radius: 1.5rem 1.5rem 0 0;
     max-width: 100%;
 }
 
-.container .order-sumary{
+.card .order-sumary{
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -37,25 +32,25 @@ main{
     box-shadow: 0px 20px 30px #01010128;
 }
 
-.container .order-sumary .info-content{
+.card .order-sumary .info-content{
     text-align: center;
-    padding: 0 7.7rem;
+    padding-inline: 7.7rem;
 }
 
-.container .order-sumary .info-content h1{
+.card .order-sumary .info-content h1{
     font-size: 2.8rem;
     font-weight: 900;
     margin-top: 4.5rem;
     color: var(--primary-text-color);
 }
 
-.container .order-sumary .info-content p{
+.card .order-sumary .info-content p{
     font-size: 1.6rem;
     line-height: 2.6rem;
     margin-top: 1.6rem;
 }
 
-.container .order-sumary .plan-description{
+.card .order-sumary .plan-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,33 +61,32 @@ main{
     background-color: var(--secundary-bg-color);
 }
 
-.container .order-sumary .plan-description .product-plan{
+.card .order-sumary .plan-container .plan-description{
     font-size: 1.6rem;
     padding-right: 7.4rem;
 }
 
-.container .order-sumary .plan-description .product-plan :first-child{
+.card .order-sumary .plan-container .plan-description :first-child{
     margin-bottom: 0.5rem;
     font-weight: 900;
     color: var(--secundary-text-color);
 }
-.container .order-sumary .plan-description::before{
-    content: url(../images/icon-music.svg);
 
+.card .order-sumary .plan-container::before{
+    content: url(../images/icon-music.svg);
 }
 
-
-.container .order-sumary .plan-description .btn-change{
+.card .order-sumary .plan-container .btn-change{
     font-size: 1.4rem;
     font-weight: 700;
+    text-decoration: underline;
 }
 
-.container .order-sumary .plan-description .btn-change:hover{
+.card .order-sumary .plan-container .btn-change:hover{
     text-decoration: none;
 }
 
-.container .order-sumary .btn-confirm{
-    text-decoration: none;
+.card .order-sumary .btn-confirm{
     color: #ffffff;
     font-weight: 700;
     font-size: 1.6rem;
@@ -103,14 +97,13 @@ main{
     margin-top: 3rem;
 }
 
-.container .order-sumary .btn-confirm:hover{
+.card .order-sumary .btn-confirm:hover{
     opacity: 0.8;
 }
 
-.container .order-sumary .btn-cancel{
+.card .order-sumary .btn-cancel{
     font-size: 1.5rem;
     font-weight: 900;
-    text-decoration: none;
     color: var(--secundary-text-color);
     margin: 3.3rem 0 4.7rem;
 }

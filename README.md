@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do Order summary card
+# Desafio Frontend Mentor - Solução do Order summary card
 
-Esta é uma solução para o [Desafio Order summary card no Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Desafio Order summary card no Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
 [![NPM](https://img.shields.io/bower/l/MI)](https://github.com/Alexjr53/Order-summary-component/blob/main/LICENSE)
 
@@ -22,16 +22,16 @@ Esta é uma solução para o [Desafio Order summary card no Frontend Mentor](htt
 
 Os usuários devem ser capazes de:
 
-- Visualize o layout ideal para a página, dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
+- criar o layout ideal para a página, dependendo do tamanho da tela do dispositivo
+- Adicionar o efeito de hover para todos os elementos interativos na página
 
 ### Screenshot
 
-![produto](src/images/screenshot.png)
+![produto](src/design/screenshot.png)
 
 ### Links
 
-- Solução URL: [Order summary card - Frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-NwlV_KIRwX )
+- Solução do desafio: [Order summary card - Frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-NwlV_KIRwX )
 - URL da página: [Order summary card](https://alexjr53.github.io/Order-summary-component/) 
 
 ## Meu processo
