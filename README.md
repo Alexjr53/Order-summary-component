@@ -31,8 +31,9 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solução do desafio: [Order summary card - Frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-NwlV_KIRwX )
+- Solução do desafio no frontend mentor: [Order summary card - Frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-NwlV_KIRwX )
 - URL da página: [Order summary card](https://alexjr53.github.io/Order-summary-component/) 
+- Repositório do projeto no GitHub: [Order summary card](https://github.com/Alexjr53/Order-summary-component)
 
 ## Meu processo
 
