@@ -16,7 +16,7 @@ Esta é uma solução para o [Desafio Order summary card no Frontend Mentor](htt
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
-  ## Visão geral
+## Visão geral
 
 ### Desafio
 
