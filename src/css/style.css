@@ -58,7 +58,7 @@ main{
     border-radius: 1rem;
     width: 78%;
     padding: 2.5rem;
-    background-color: var(--secundary-bg-color);
+    background-color: var(--secondary-bg-color);
 }
 
 .card .order-sumary .plan-container .plan-description{
@@ -69,7 +69,7 @@ main{
 .card .order-sumary .plan-container .plan-description :first-child{
     margin-bottom: 0.5rem;
     font-weight: 900;
-    color: var(--secundary-text-color);
+    color: var(--secondary-text-color);
 }
 
 .card .order-sumary .plan-container::before{
@@ -104,6 +104,6 @@ main{
 .card .order-sumary .btn-cancel{
     font-size: 1.5rem;
     font-weight: 900;
-    color: var(--secundary-text-color);
+    color: var(--secondary-text-color);
     margin: 3.3rem 0 4.7rem;
 }
